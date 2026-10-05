@@ -1,41 +1,75 @@
 # MagicStudio - Interactive Headshot Cropper 📸✨
 
-Namaskaram andriki! 🙏 Welcome to **MagicStudio**. Ippudu manam mana photos ni professional headshots ga easy ga marchukovachu. Ee app ni chala simple and modern ga design chesamu, so evaraina easily vaadukovachu. 
+Welcome to **MagicStudio** — an interactive, AI-assisted photo cropping and framing tool designed to transform casual photos into polished, professional headshots perfect for LinkedIn, resumes, portfolios, and team directories.
 
-## Ee App Emaina Chestundi? (What does it do?) 🚀
-MagicStudio anedi oka interactive photo cropping and framing tool. Meeru oka normal photo upload cheste, daanni perfect professional headshot (LinkedIn, CVs ki set ayyela) ga crop cheyadaniki help chestundi. 
+---
 
-### Key Features (Main ga em unnay ante):
-- **AI-Powered Framing**: Meeru photo upload cheyagane, mana AI (Artificial Intelligence) automatic ga best crop area ni suggest chestundi (upper-third framing).
-- **Live Preview**: Meeru crop chestuntunte, pakkane live ga chusukovachu photo ela vastundo ani.
-- **Undo & Redo**: Tappu jarigithe bhayapadalsina avasaram ledu. `Ctrl+Z` (Undo) and `Ctrl+Y` (Redo) options unnai.
-- **Save & Export**: Crop chesina photo ni direct ga mee system loki download cheskovachu (HD quality lo).
-- **Authentication**: Accounts create cheskuni mee crops ni save cheskune facility kuda undi (temporary local database).
+## 🚀 Overview
 
-## Technologies Used (Ela build chesam?) 💻
-Ee project ni latest and fast technologies vadi develop chesaru:
-- **Frontend**: `React 19` (UI kosam) and `Vite` (Super fast build tool).
-- **Styling**: `Tailwind CSS 4` (Modern and responsive design kosam).
-- **Icons**: `Lucide React` (Beautiful icons kosam).
-- **Animations**: `Framer Motion` (Smooth animations and transitions).
-- **AI Integration**: `@google/genai` (Intelligent suggestions kosam).
+MagicStudio eliminates the guesswork from cropping portraits. By combining intuitive interactive canvas controls with intelligent composition suggestions (such as rule-of-thirds and upper-third eye-level framing), it ensures your profile pictures always look balanced, professional, and high-impact.
 
-## Ela Run Cheyali? (How to run locally?) 🛠️
+---
 
-Mee local machine lo ee project ni run cheyadaniki, ee steps follow avvandi:
+## ✨ Key Features
 
-1. **Install Dependencies** (Mundu ga packages anni install cheskondi):
+- 🤖 **AI-Powered Framing**: Automatically analyzes uploaded photos to recommend optimal crop boundaries and eye-level positioning.
+- 👁️ **Live Interactive Preview**: View your cropped avatar in real-time across standard circular, square, and banner formats as you adjust.
+- 🔄 **Full Undo & Redo History**: Confidently experiment with adjustments using keyboard shortcuts (`Ctrl+Z` / `Ctrl+Y`) and toolbar actions.
+- 💾 **High-Resolution Export**: Download high-quality, crisp headshots ready for immediate upload.
+- 🔐 **Session & Crop Management**: Save your favorite crops and revisit previous sessions anytime.
+- ⚡ **Modern, Responsive UI**: Sleek dark-mode aesthetic with fluid transitions and touch/mouse interaction.
+
+---
+
+## 💻 Tech Stack
+
+- **Framework**: [React 19](https://react.dev/)
+- **Bundler & Dev Server**: [Vite](https://vite.dev/)
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **AI Capabilities**: Google Gemini API via [`@google/genai`](https://www.npmjs.com/package/@google/genai)
+
+---
+
+## 🛠️ Getting Started
+
+Follow these steps to run MagicStudio locally on your computer:
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (version 18 or later recommended)
+- `npm` or `bun`
+
+### Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/vivekreddy56789/magic-studio.git
+   cd magic-studio
+   ```
+
+2. **Install dependencies**:
    ```bash
    npm install
    ```
 
-2. **Start the Development Server** (App start cheyadaniki):
+3. **Start the development server**:
    ```bash
    npm run dev
    ```
 
-3. **Browser lo Open Cheyandi**:
-   Terminal lo oche URL (usually `http://localhost:3000`) ni mee browser lo open cheyandi.
+4. **Open in browser**:
+   Navigate to the local address displayed in your terminal (typically `http://localhost:5173` or `http://localhost:3000`).
 
 ---
-Mee feedbacks and suggestions unte kachitanga share cheyandi. Happy Cropping! 🎉
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/vivekreddy56789/magic-studio/issues).
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
