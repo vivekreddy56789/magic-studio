@@ -1,0 +1,6 @@
+{
+  "name": "HORMN AI Headshot Cropping Studio",
+  "description": "Professional AI-powered headshot cropping tool with interactive bounds, rule-of-thirds AI heuristics, and high-fidelity canvas export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
